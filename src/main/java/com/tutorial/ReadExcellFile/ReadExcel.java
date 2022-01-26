@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.util.Iterator;
 
 public class ReadExcel {
-    private static final String Name = "C:\\Users\\Septiana Putri CS\\Documents\\#TestApps.xlsx";
+    private static final String Name = "C:\\Users\\WIWIN.RISTANTO\\OneDrive\\Documents\\#TestApps.xlsx";
 
     public static void main(String []args){
         try{

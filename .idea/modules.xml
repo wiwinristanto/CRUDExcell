@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ReadDataExcell.iml" filepath="$PROJECT_DIR$/ReadDataExcell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CRUDExcell.iml" filepath="$PROJECT_DIR$/CRUDExcell.iml" />
     </modules>
   </component>
 </project>

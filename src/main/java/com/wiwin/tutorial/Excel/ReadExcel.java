@@ -1,15 +1,14 @@
-package com.tutorial.ReadExcellFile;
+package com.wiwin.tutorial.Excel;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Iterator;
 
 public class ReadExcel {
-    private static final String Name = "C:\\Users\\WIWIN.RISTANTO\\OneDrive\\Documents\\#TestApps.xlsx";
+    private static final String Name = "D:\\#testApp.xlsx";
 
     public static void main(String []args){
         try{

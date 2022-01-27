@@ -1,7 +1,7 @@
 //https://www.geeksforgeeks.org/reading-writing-data-excel-file-using-apache-poi/
 //Java program to Illustrate Writing
 //Data to Excel File using Apache POI
-package com.wiwin.tutorial.Excel;
+package com.wiwin.tutorial.excel;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;

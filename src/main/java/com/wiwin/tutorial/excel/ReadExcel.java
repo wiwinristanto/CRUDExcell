@@ -1,4 +1,4 @@
-package com.wiwin.tutorial.Excel;
+package com.wiwin.tutorial.excel;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;

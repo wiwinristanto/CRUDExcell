@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a7ab55a-6375-4191-ad00-37e3ae36b9df" name="Changes" comment="add : Add file WritingExcellFile.java to create file excel Static">
+    <list default="true" id="8a7ab55a-6375-4191-ad00-37e3ae36b9df" name="Changes" comment="style : Rename and fix typo">
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/Create.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ui/DasboardModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ui/DasboardPresenter$Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ui/DasboardPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ui/DasboardView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfgcontribute.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/gfgcontribute.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wiwin/tutorial/excel/WritingExcellFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wiwin/tutorial/excel/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wiwin/tutorial/Excel/WritingExcellFile.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +70,20 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.WritingExcellFile">
+  <component name="RunManager" selected="Application.Create">
+    <configuration name="Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wiwin.tutorial.excel.Create" />
+      <module name="CRUDExcell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiwin.tutorial.excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.ReadExcellFile.ReadExcel" />
       <module name="CRUDExcell" />
@@ -64,22 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WritingExcellFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wiwin.tutorial.excel.WritingExcellFile" />
-      <module name="CRUDExcell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiwin.tutorial.excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WritingExcellFile" />
+        <item itemvalue="Application.Create" />
         <item itemvalue="Application.ReadExcel" />
       </list>
     </recent_temporary>
@@ -114,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643276406667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add : Implementasi Arsitecture MVP">
+      <created>1643278149468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643278149468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +159,8 @@
     <MESSAGE value="add : add dependencies with maven" />
     <MESSAGE value="delete : delete library Maven" />
     <MESSAGE value="add : Add file WritingExcellFile.java to create file excel Static" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : Add file WritingExcellFile.java to create file excel Static" />
+    <MESSAGE value="add : Implementasi Arsitecture MVP" />
+    <MESSAGE value="style : Rename and fix typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="style : Rename and fix typo" />
   </component>
 </project>

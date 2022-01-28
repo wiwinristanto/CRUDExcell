@@ -16,13 +16,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class WritingExcellFile {
+public class Create {
     public static void main(String[] args){
         //Blank workbook
         XSSFWorkbook workbook = new XSSFWorkbook();
 
         // Creating a blank Excell Sheet
-        XSSFSheet sheet = workbook.createSheet("student Detairl");
+        XSSFSheet sheet = workbook.createSheet("student Details");
         //Creating an empty TreeMap of string and Object[}
         //type
         Map<String, Object[]> data = new TreeMap<String, Object[]>();
